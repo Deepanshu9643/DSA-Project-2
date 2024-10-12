@@ -32,11 +32,11 @@ let arr = [
   }
 
   function concatenateArray() {
-    let newArr = [
+    let newEmployee = [
       { id: 5, name: "Nikhil", age: "21", profession: "developer" },
       { id: 6, name: "Neeraj", age: "22", profession: "developer" },
       { id: 7, name: "Himanshu", age: "23", profession: "developer" }
     ];
-    let concatenatedArr = arr.concat(newArr);
-    console.log(concatenatedArr);
+    let addEmployee = arr.concat(newEmployee);
+    console.log(addEmployee);
   }
