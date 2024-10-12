@@ -27,8 +27,8 @@ let arr = [
   }
 
   function removeAdmin() {
-    let updatedArr = arr.filter(employee => employee.profession !== "admin");
-    console.log(updatedArr);
+    let remove = arr.filter(employee => employee.profession !== "admin");
+    console.log(remove);
   }
 
   function concatenateArray() {
